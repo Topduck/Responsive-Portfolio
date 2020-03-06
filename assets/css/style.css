@@ -13,10 +13,10 @@ body {
 /* general */
 
 .container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
+  max-width: 700px;
+  margin: 20px;
   clear: both;
+  display:flex;
 }
 
 h1,
@@ -63,7 +63,7 @@ h3 {
   border-bottom: 2px solid #ccc;
 }
 
-#logo {
+.logo {
   float: left;
   width: 250px;
   height: 90px;
@@ -142,13 +142,12 @@ h3,
 
 /* main */
 
-#main-container {
+.main-container {
   padding-top: 130px;
 }
 
 .main-section {
-  float: left;
-  width: 100%;
+  float: center;
   max-width: 650px;
   padding: 30px;
   margin: 0 0 40px;
@@ -242,14 +241,14 @@ input[type=submit] {
 @media screen and (max-width: 980px){
   .container {
   background-color: blue;
-  display: block;
+  display: flex;
 }
 }
 
 @media screen and (max-width: 768px){
   .container {
     background-color: red;
-    display: block;
+    display: flex;
   }
   }
 
@@ -261,20 +260,26 @@ input[type=submit] {
     text-align: center;
     flex-wrap: wrap;
     justify-content: center;
+    justify-items: center ;
     width: 100%;
     height: auto;
   }
-  #logo{
+  }
+  .logo{
     float: none;
     text-align: center;
     width: 100%;
   }
   .header{
-    display: block;
+    display: flex;
     width: 100%;
     height: auto;
+    position: static;
   }
-  .navbar{
+  .nav{
     float: none;
   }
+  .work{
+    width: 100%;
   }
+  
