@@ -13,7 +13,8 @@ body {
 /* general */
 
 .container {
-  max-width: 700px;
+  max-width: 1000px;
+  width: 85%;
   margin: 20px;
   clear: both;
   display:flex;
@@ -50,10 +51,12 @@ h3 {
   font-size: 22px;
 }
 
+
 /* header */
 
 #masthead {
-  position: fixed;
+  display: flex;
+  position: static;
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
@@ -65,7 +68,7 @@ h3 {
 
 .logo {
   float: left;
-  width: 250px;
+  width: 90%;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -78,8 +81,9 @@ h3 {
 }
 
 nav {
-  text-align: right;
-  margin-top: 20px;
+  display: flex;
+  text-align: left;
+  margin-top: 45px;
 }
 
 nav a {
@@ -115,6 +119,7 @@ footer {
   float: right;
   width: 100%;
   max-width: 270px;
+  height: min-content;
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
@@ -144,11 +149,12 @@ h3,
 
 .main-container {
   padding-top: 130px;
+  display: flex;
 }
 
 .main-section {
   float: center;
-  max-width: 650px;
+  max-width: 1000px;
   padding: 30px;
   margin: 0 0 40px;
   background: #fff;
@@ -242,6 +248,13 @@ input[type=submit] {
   .container {
   background-color: blue;
   display: flex;
+  flex-wrap: wrap;
+
+}
+.sidebar {
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
 }
 }
 
@@ -249,6 +262,13 @@ input[type=submit] {
   .container {
     background-color: red;
     display: flex;
+    flex-wrap: wrap;
+  }
+  .sidebar {
+    background-color: red;
+    display: flex;
+    width: 100%;
+
   }
   }
 
@@ -263,6 +283,10 @@ input[type=submit] {
     justify-items: center ;
     width: 100%;
     height: auto;
+  }
+  .sidebar {
+    background-color: red;
+    display: flex;
   }
   }
   .logo{
