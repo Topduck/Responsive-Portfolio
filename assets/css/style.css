@@ -45,9 +45,9 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: Georgia, Times, "Courier New", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #DC143C;
 }
 
 h1 {
@@ -81,14 +81,14 @@ h3 {
   float: left;
   width: 90%;
   height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: Georgia, Times, "Courier New", serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
   color: #fff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #DC143C;
 }
 
 nav {
@@ -121,7 +121,7 @@ footer {
   color: #ccc;
   text-align: center;
   background: #666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #DC143C;
 }
 
 /* sidebar */
@@ -203,7 +203,7 @@ h3,
   line-height: 30px;
   color: #fff;
   text-align: center;
-  background: #4aaaa5;
+  background: #DC143C;
   border-bottom: 0;
 }
 
@@ -251,19 +251,19 @@ input[type=submit] {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #DC143C;
   border: 0 none;
 }
 
 @media screen and (max-width: 980px){
   .container {
-  background-color: blue;
+  background-color: black;
   display: flex;
   flex-wrap: wrap;
 
 }
 .sidebar {
-  background-color: blue;
+  background-color: black;
   display: flex;
   flex-wrap: wrap;
 }
